@@ -402,7 +402,7 @@ img {
   text-align: center;
   transition: 0.4s;
   box-shadow: 0 2px 5px rgba(199, 195, 195, 0.3);
-  background: #2a3749;
+  background: #333333;
 }
 
 .services__data:nth-of-type(4) img {
@@ -411,7 +411,7 @@ img {
 
 .services__img {
   width: 230px;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   justify-self: center;
 }
 
@@ -450,7 +450,7 @@ img {
   text-align: center;
   transition: 0.4s;
   box-shadow: 0 2px 5px rgba(199, 195, 195, 0.3);
-  background: #2a3749;
+  background: #333333;
 }
 
 .portfolio__img {
@@ -516,7 +516,9 @@ img {
 }
 
 .footer {
-  background-color: #2a3749;
+  background-color: #333333;
+  font-size: 13px;
+  height: 80px;
 }
 
 .footer__container {
@@ -552,7 +554,7 @@ img {
 @media (min-width: 506px) {
   .home__img img {
     width: 300px;
-    height: 400px;
+    height: 500px;
   }
   .home__container,
   .services__container {
@@ -626,8 +628,8 @@ img {
     top: 100px;
   }
   .home__img img {
-    width: 380px;
-    height: 700px;
+    width: 580px;
+    height: 600px;
   }
   .services__container {
     display: grid;
